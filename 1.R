@@ -8,9 +8,9 @@ scrape_mv<-function(){
     val_end<- grep("FINIS",mer_text)
     
     
-    ##take third index of start and last of end : : in case there is repetition
+    ##take fourth index of start and last of end : : in case there is repetition
     ##third index is taken for our particular case.
-    val_start <- val_start[3]
+    val_start <- val_start[4]
     val_end <- val_end[length(val_end)]
     
     ##value in val is the point of termination
