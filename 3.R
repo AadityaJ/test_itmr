@@ -11,3 +11,6 @@ print_verb<-function(txtTag){
   ##last word is vestigal . Removing it
   list[1:(length(list)-1)]
 }
+
+
+##end
