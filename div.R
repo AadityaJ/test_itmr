@@ -13,7 +13,7 @@ data_split<-function(data,split.val=0.75,seed=12){
   #default split ratio is 3:1 i.e training is 0.75 of data and test is 0.25
   #also by default seed is set to 12 and also can be changed
   #if split.val given by user is 1 or exceeds that value throw an error
-  try(if(split.val>=1)stop("Split value provided should be between 0 and 1"));
+  try(if(split.val>=1 || split.val<=0)stop("Split value provided should be between 0 and 1"));
   
   ##check and set the sample size of the data
   sample_size <- floor(split.val*nrow(mtcars))
