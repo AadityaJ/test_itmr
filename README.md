@@ -1,2 +1,2 @@
 ##Test
-This is a test about text minning
+This is a test about text minning.
