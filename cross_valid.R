@@ -24,3 +24,6 @@ lv_one_cv<-function(data){
     validate(data,i)  
   }
 }
+
+## for demo : 
+## lv_one_cv(mtcars)

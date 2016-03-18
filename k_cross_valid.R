@@ -29,5 +29,5 @@ k_cv<-function(data,k=10){
     i<-i+k+1
   }
 }
-
-## to run k_cv(mtcars,10)
+## for demo :
+## k_cv(mtcars,10)
